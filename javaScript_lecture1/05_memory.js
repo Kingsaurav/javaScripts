@@ -3,8 +3,8 @@
 let myName= "saurav";
 let anotherName=myName;
 anotherName="Sumit";
-console.log(myName);
-console.log(anotherName);
+console.log(myName);//saurav
+console.log(anotherName);//Sumit
 // it does not affect original value
 
 // Heap (Non- primitive)
@@ -17,5 +17,5 @@ let userOne ={
 let userTwo = userOne;
 userTwo.email="hello@gmail.com";
 
-console.log(userOne.email);
-console.log(userTwo.email);
+console.log(userOne.email);//hello@gmail.com
+console.log(userTwo.email);//hello@gmail.com
